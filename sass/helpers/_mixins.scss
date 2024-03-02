@@ -1,0 +1,12 @@
+//mixins
+
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin no-pad-marg{
+    margin: 0px;
+    padding: 0px;
+}

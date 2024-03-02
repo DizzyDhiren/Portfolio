@@ -12,6 +12,9 @@ body {
 
 header {
   background-color: #A7CCED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
   width: 100%;
-  margin: 0px;
 }/*# sourceMappingURL=homepage.css.map */

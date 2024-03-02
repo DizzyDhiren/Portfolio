@@ -1,9 +1,9 @@
 //base
 @import "../helpers/variables";
+@import "../helpers/mixins";
 
 body{ 
-    margin: 0px;
-    padding: 0px;
+    @include no-pad-marg;
     background-color: $background;
 }
 
