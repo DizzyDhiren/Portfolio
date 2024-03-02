@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFFCE8;
+}
+
+.main-container {
+  width: 66%;
+  margin: auto;
+  min-width: 1024px;
+}
+
+header {
+  background-color: #A7CCED;
+  width: 100%;
+  margin: 0px;
+}/*# sourceMappingURL=homepage.css.map */

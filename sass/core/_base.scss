@@ -1,0 +1,14 @@
+//base
+@import "../helpers/variables";
+
+body{ 
+    margin: 0px;
+    padding: 0px;
+    background-color: $background;
+}
+
+.main-container{ 
+    width: 66%;
+    margin: auto;
+    min-width: 1024px;
+}
