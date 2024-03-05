@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #FFFCE8;
+  background-color: #A7CCED;
 }
 
 .main-container {
@@ -11,10 +11,15 @@ body {
 }
 
 header {
-  background-color: #A7CCED;
+  background-color: #63ADF2;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-end;
+  justify-content: space-between;
   width: 100%;
+}
+header nav ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  padding: 10px;
+  gap: 15px;
 }/*# sourceMappingURL=homepage.css.map */
