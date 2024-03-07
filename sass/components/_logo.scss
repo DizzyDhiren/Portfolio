@@ -1,5 +1,11 @@
 //logo
 
 .logo-container{
-    width: 50px;
+    width: fit-content;
+    justify-content: center;
+    padding: 10px;
+
+    img{
+        width: 70px;
+    }
 }

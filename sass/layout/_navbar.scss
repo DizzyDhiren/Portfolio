@@ -1,23 +1,26 @@
 //nav bar
 @import "../helpers/variables";
 @import "../helpers/mixins";
+@import "../components/logo";
 
 
 header{ 
     background-color: $tertiary;
-    display: flex;
-    
-    justify-content: space-between;
+    @include flex(row, space-between);
     
     width: 100%;
 
-    nav ul{
-        list-style: none;
-        text-decoration: none;
-        display: flex;
-        padding: 10px;
+    nav{
 
-        gap: 15px;
+        ul{
+            list-style: none;
+            text-decoration: none;
+            display: flex;
+            padding: 15px;
+            color: $text;
+            
+            gap: 15px;
+        }
     }
     
     

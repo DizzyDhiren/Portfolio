@@ -1,9 +1,11 @@
 //mixins
 
-@mixin flex-center{
+@mixin flex($direction, $content){
     display: flex;
-    justify-content: center;
+    justify-content: $content;
     align-items: center;
+    flex-direction: $direction;
+    
 }
 
 @mixin no-pad-marg{
