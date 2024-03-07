@@ -13,12 +13,16 @@ header{
 
         ul{
             list-style: none;
-            text-decoration: none;
             display: flex;
             padding: 15px;
-            color: $text;
+          
             
-            gap: 15px;
+            gap: 25px;
+
+            li a{
+                text-decoration: none;
+                color: $text;
+            }
         }
     }
     
