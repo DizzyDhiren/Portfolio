@@ -1,7 +1,6 @@
 //nav bar
-@import "../helpers/variables";
-@import "../helpers/mixins";
-@import "../components/logo";
+@use '../helpers/index' as *; 
+@use "../components/logo";
 
 
 header{ 

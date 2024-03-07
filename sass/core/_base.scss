@@ -1,6 +1,5 @@
 //base
-@import "../helpers/variables";
-@import "../helpers/mixins";
+@use '../helpers/index' as *; 
 
 body{ 
     @include no-pad-marg;
@@ -10,5 +9,6 @@ body{
 .main-container{ 
     width: 66%;
     margin: auto;
-    min-width: 1024px;
+    //min-width: 1024px;
+    border: $border-test;
 }
