@@ -38,6 +38,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  box-shadow: 0px 4px 14px #304D6D;
   width: 100%;
 }
 header nav ul {

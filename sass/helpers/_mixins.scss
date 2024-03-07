@@ -12,3 +12,7 @@
     margin: 0px;
     padding: 0px;
 }
+
+@mixin down-box-shadow{
+    box-shadow: 0px 4px 14px #304D6D;
+}

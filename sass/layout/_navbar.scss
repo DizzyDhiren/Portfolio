@@ -6,7 +6,7 @@
 header{ 
     background-color: $tertiary;
     @include flex(row, space-between);
-    
+    @include down-box-shadow;
     width: 100%;
 
     nav{
