@@ -1,0 +1,26 @@
+//typography
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$ff-title: Outfit;
+$ff-body: Roboto;
+
+$font-weights: (
+    "thin":300,
+    "regular":500,
+    "bold": 700
+);
+
+$font-sizes:(
+    "normal":16px,
+    "tagline":18px,
+    "title": 28px
+);
+
+@function weight($weight-name) {
+    @return map-get($font-weights , $weight-name );
+}
+
+@function font-size($font-size) {
+    @return map-get($font-sizes, $font-size );
+}
+
