@@ -11,23 +11,27 @@ body{
     height: 2000px;
 }
 
-.tagline-container{ 
-    width: fit-content;
-    border: $border-test;
-}
-
 .main-container{
     width: 100%;
     height: 100%;
 
-    @include flex(row, center);
+    //@include flex(row, none);
 
     border: $border-test;
     
 }
 
-.info-container{
-    position: relative;
+.tagline-container{ 
+    width: fit-content;
     border: $border-test;
+}
+
+.info-container{
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    
     width: 30%  ;
+    height: fit-content;
+    border: $border-test;
 }
