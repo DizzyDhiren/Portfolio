@@ -1,14 +1,35 @@
 //base
 @use '../helpers/index' as *; 
 
+html{
+    font-size: 62.5%
+}
+
 body{ 
     @include no-pad-marg;
     background-color: $background;
+    height: 2000px;
 }
 
-.main-container{ 
-    width: 66%;
-    margin: auto;
+.tagline-container{ 
+    width: 45%;
+    
+    //margin: auto;
     //min-width: 1024px;
     border: $border-test;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+
+    @include flex(row, center);
+
+    border: $border-test;
+    
+}
+
+.info-container{
+    border: $border-test;
+    width: 30% ;
 }

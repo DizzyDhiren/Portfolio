@@ -6,10 +6,25 @@ body{
     font-family: $ff-body;
 }
 
-h1 h2 h3 h4 {
+h1, h2, h3, h4 {
     font-family: $ff-title;
+    @include no-pad-marg;
 }
 
 nav ul{ 
-    font-size: font-size(tagline);
+    font-size: font-size(nav);
+}
+
+h1 {
+    font-size:  font-size(background-text);
+    font-weight: weight(bold);
+    color: #0A1128;
+    opacity: 75%;
+    
+}
+
+h3{
+    font-size:  font-size(tagline);
+    font-weight: weight(normal);
+    color: $tertiary;
 }
