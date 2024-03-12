@@ -11,7 +11,7 @@ body {
 }
 
 .tagline-container {
-  width: 45%;
+  width: fit-content;
   border: 2px solid red;
 }
 
@@ -26,6 +26,7 @@ body {
 }
 
 .info-container {
+  position: relative;
   border: 2px solid red;
   width: 30%;
 }

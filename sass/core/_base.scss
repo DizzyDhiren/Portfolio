@@ -12,10 +12,7 @@ body{
 }
 
 .tagline-container{ 
-    width: 45%;
-    
-    //margin: auto;
-    //min-width: 1024px;
+    width: fit-content;
     border: $border-test;
 }
 
@@ -30,6 +27,7 @@ body{
 }
 
 .info-container{
+    position: relative;
     border: $border-test;
-    width: 30% ;
+    width: 30%  ;
 }
