@@ -4,25 +4,32 @@ $breakpoints: (
     
     "tablet": 768px,
     "laptop": 1024px,
-    "desktop": 1440px
+    "desktop": 1440px,
+    "l-desktop": 2286px
 );
 
 
 
 @mixin tablet {
-    @media (min-width: map-get($breakpoints, "tablet")) {
+    @media (max-width: map-get($breakpoints, "tablet")) {
         @content;
     }
 }
 
 @mixin laptop {
-    @media (min-width: map-get($breakpoints, "laptop")) {
+    @media (max-width: map-get($breakpoints, "laptop")) {
         @content;
     }
 }
 
 @mixin desktop {
-    @media (min-width: map-get($breakpoints, "desktop")) {
+    @media (max-width: map-get($breakpoints, "desktop")) {
+        @content;
+    }
+}
+
+@mixin l-desktop {
+    @media (max-width: map-get($breakpoints, "l-desktop")) {
         @content;
     }
 }

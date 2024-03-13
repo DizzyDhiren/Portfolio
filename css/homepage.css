@@ -16,14 +16,9 @@ body {
   border: 2px solid red;
 }
 
-.tagline-container {
-  width: 35%;
-  border: 2px solid red;
-}
-
 .info-container {
   position: absolute;
-  right: 15%;
+  right: 10%;
   top: 25%;
   width: 30%;
   height: fit-content;
@@ -87,6 +82,18 @@ header nav ul li a {
 
 .tagline-container {
   position: fixed;
+  width: fit-content;
   left: 7%;
   top: 25%;
+  border: 2px solid red;
+}
+@media (max-width: 2286px) {
+  .tagline-container {
+    width: 45%;
+  }
+}
+@media (max-width: 1440px) {
+  .tagline-container {
+    width: 45%;
+  }
 }/*# sourceMappingURL=homepage.css.map */
