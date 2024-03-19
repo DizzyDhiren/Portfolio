@@ -6,23 +6,28 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #A7CCED;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #132553;
   height: 2000px;
 }
 
 .main-container {
-  width: 100%;
+  width: 1440px;
+  min-width: 1024px;
   height: 100%;
-  border: 2px solid red;
+  border: 2px red;
 }
 
 .info-container {
-  position: absolute;
-  right: 10%;
-  top: 25%;
-  width: 30%;
+  position: relative;
+  left: 52%;
+  top: 5%;
+  width: 40%;
   height: fit-content;
-  border: 2px solid red;
+  border: 2px red;
 }
 
 body {
@@ -36,19 +41,32 @@ h1, h2, h3, h4 {
 }
 
 nav ul {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 80px;
   font-weight: 700;
-  color: #0A1128;
+  color: white;
   opacity: 75%;
 }
 
 h3 {
   font-size: 40px;
   color: #63ADF2;
+}
+
+.info-container p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #909096;
+  font-family: Roboto;
+  line-height: 1.625;
+  word-spacing: 10%;
+}
+.info-container p span {
+  color: #45B0AE;
+  font-weight: 525;
 }
 
 .logo-container {
@@ -61,12 +79,12 @@ h3 {
 }
 
 header {
-  background-color: #63ADF2;
+  background-color: #0E6BA8;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  box-shadow: 0px 4px 14px #304D6D;
+  box-shadow: 0px 10px 14px #304D6D;
   width: 100%;
 }
 header nav ul {
@@ -81,11 +99,14 @@ header nav ul li a {
 }
 
 .tagline-container {
-  position: fixed;
+  display: flex;
+  flex-direction: column;
   width: fit-content;
-  left: 7%;
-  top: 25%;
-  border: 2px solid red;
+  height: fit-content;
+  position: fixed;
+  margin-left: 50px;
+  top: 20%;
+  border: 2px red;
 }
 @media (max-width: 2286px) {
   .tagline-container {
@@ -94,6 +115,6 @@ header nav ul li a {
 }
 @media (max-width: 1440px) {
   .tagline-container {
-    width: 45%;
+    width: 35%;
   }
 }/*# sourceMappingURL=homepage.css.map */

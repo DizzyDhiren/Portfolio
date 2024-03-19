@@ -4,7 +4,7 @@
 
 
 header{ 
-    background-color: $tertiary;
+    background-color: $primary;
     @include flex(row, space-between);
     @include down-box-shadow;
     width: 100%;

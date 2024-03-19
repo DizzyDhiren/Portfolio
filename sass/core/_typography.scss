@@ -18,7 +18,7 @@ nav ul{
 h1 {
     font-size:  font-size(background-text);
     font-weight: weight(bold);
-    color: #0A1128;
+    color: white;
     opacity: 75%;
     
 }
@@ -27,4 +27,21 @@ h3{
     font-size:  font-size(tagline);
     font-weight: weight(normal);
     color: $tertiary;
+}
+
+.info-container{
+    p{
+        font-size: font-size(normal);
+        font-weight: weight(regular);
+        color: #909096;
+        font-family: $ff-body;
+
+        line-height: 1.625;
+        word-spacing: 10%;
+
+        span{
+            color:#45B0AE;
+            font-weight: 525;
+        }
+    }
 }

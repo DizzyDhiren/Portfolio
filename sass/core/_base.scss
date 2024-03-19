@@ -7,15 +7,17 @@ html{
 
 body{ 
     @include no-pad-marg;
+    @include flex(column, flex-start);
     background-color: $background;
     height: 2000px;
 }
 
 .main-container{
-    width: 100%;
+    width: 1440px;
+    min-width: 1024px;
     height: 100%;
-
-    //@include flex(row, none);
+    
+    
 
     border: $border-test;
     
@@ -23,11 +25,10 @@ body{
 
 
 .info-container{
-    position: absolute;
-    right: 10%;
-    top: 25%;
-    
-    width: 30%  ;
+    position: relative;
+    left: 52%;
+    top: 5%;
+    width: 40%  ;
     height: fit-content;
     border: $border-test;
 }

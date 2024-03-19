@@ -11,11 +11,11 @@ $font-weights: (
 );
 
 $font-sizes:(
-    "normal":16px,
-    "nav": 20px,
+    "normal":22px,
+    "nav": 24px,
     "title": 28px,
     "tagline":40px,
-    "background-text": 200px
+    "background-text": 80px
 );
 
 @function weight($weight-name) {
