@@ -18,7 +18,7 @@ body {
   width: 1440px;
   min-width: 1024px;
   height: 100%;
-  border: 2px red;
+  border: 2px solid red;
 }
 
 .info-container {
@@ -27,7 +27,7 @@ body {
   top: 5%;
   width: 40%;
   height: fit-content;
-  border: 2px red;
+  border: 2px solid red;
 }
 
 body {
@@ -106,7 +106,7 @@ header nav ul li a {
   position: fixed;
   margin-left: 50px;
   top: 20%;
-  border: 2px red;
+  border: 2px solid red;
 }
 @media (max-width: 2286px) {
   .tagline-container {
