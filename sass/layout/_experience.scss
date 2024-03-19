@@ -1,0 +1,20 @@
+//experience section 
+
+@use '../components/card';
+@use "../helpers/index" as *;
+
+
+.card{
+
+    .date{
+        align-self: flex-start;
+        width: 20%;
+        border: $border-test;
+    }
+
+    .description{
+        align-self: flex-start;
+        width: 70%;
+        border: $border-test;
+    }
+}

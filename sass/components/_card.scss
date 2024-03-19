@@ -1,3 +1,10 @@
 //card 
 @use "../helpers/index" as *;
 
+.card{
+    @include flex(row,space-around);
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    border: $border-test;
+}
