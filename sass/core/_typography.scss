@@ -45,3 +45,29 @@ h3{
         }
     }
 }
+
+.experience{
+
+    h4{
+        font-size: font-size(title);
+        font-weight: weight(regular);
+        color: #ffffff;
+        font-family: $ff-body;
+    }
+    
+    .date{
+        font-size: font-size(experience);
+        font-weight: weight(regular);
+        color: #a4a4ab;
+        opacity: 50%;
+        font-family: $ff-body;
+    }
+
+    p{
+        font-size: font-size(experience);
+        font-weight: weight(regular);
+        color: #909096;
+        font-family: $ff-body;
+        @include no-pad-marg;
+    }
+}

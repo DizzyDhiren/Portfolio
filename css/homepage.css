@@ -18,7 +18,7 @@ body {
   width: 1440px;
   min-width: 1024px;
   height: 100%;
-  border: 2px solid red;
+  border: 2px red;
 }
 
 .info-container {
@@ -27,7 +27,7 @@ body {
   top: 5%;
   width: 40%;
   height: fit-content;
-  border: 2px solid red;
+  border: 2px red;
 }
 
 body {
@@ -69,6 +69,28 @@ h3 {
   font-weight: 525;
 }
 
+.experience h4 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: Roboto;
+}
+.experience .date {
+  font-size: 19px;
+  font-weight: 500;
+  color: #a4a4ab;
+  opacity: 50%;
+  font-family: Roboto;
+}
+.experience p {
+  font-size: 19px;
+  font-weight: 500;
+  color: #909096;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
+
 .logo-container {
   width: fit-content;
   justify-content: center;
@@ -106,7 +128,7 @@ header nav ul li a {
   position: fixed;
   margin-left: 50px;
   top: 20%;
-  border: 2px solid red;
+  border: 2px red;
 }
 @media (max-width: 2286px) {
   .tagline-container {
@@ -127,16 +149,20 @@ header nav ul li a {
   flex-wrap: wrap;
   width: 100%;
   height: fit-content;
-  border: 2px solid red;
+  border: 2px red;
 }
 
-.card .date {
+.experience {
+  gap: 50px;
+  border: 2px red;
+}
+.experience .card .date {
   align-self: flex-start;
   width: 20%;
-  border: 2px solid red;
+  border: 2px red;
 }
-.card .description {
+.experience .card .description {
   align-self: flex-start;
-  width: 70%;
-  border: 2px solid red;
+  width: 65%;
+  border: 2px red;
 }/*# sourceMappingURL=homepage.css.map */

@@ -3,18 +3,22 @@
 @use '../components/card';
 @use "../helpers/index" as *;
 
+.experience{
+    gap: 50px;
+    border: $border-test;
+    .card{      
 
-.card{
+        .date{
+            align-self: flex-start;
+            width: 20%;
+            border: $border-test;
+        }
 
-    .date{
-        align-self: flex-start;
-        width: 20%;
-        border: $border-test;
+        .description{
+            align-self: flex-start;
+            width: 65%;
+            border: $border-test;
+        }
     }
 
-    .description{
-        align-self: flex-start;
-        width: 70%;
-        border: $border-test;
-    }
 }
