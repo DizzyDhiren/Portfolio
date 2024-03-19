@@ -117,4 +117,26 @@ header nav ul li a {
   .tagline-container {
     width: 35%;
   }
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+  border: 2px solid red;
+}
+
+.card .date {
+  align-self: flex-start;
+  width: 20%;
+  border: 2px solid red;
+}
+.card .description {
+  align-self: flex-start;
+  width: 70%;
+  border: 2px solid red;
 }/*# sourceMappingURL=homepage.css.map */
