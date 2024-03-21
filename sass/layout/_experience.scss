@@ -5,6 +5,7 @@
 
 .experience{
     @include flex(column, center);
+    width: 100%;
     gap: 45px;
     align-items: flex-start;
     //border: $border-test;
