@@ -6,6 +6,8 @@
     flex-wrap: wrap;
     width: 100%;
     height: fit-content;
+    border-radius: 20px;
+    padding: 15px;
     border: $border-test;
 
     &:hover{

@@ -6,8 +6,8 @@
 .experience{
     @include flex(column, center);
     gap: 45px;
-    border: $border-test;
     align-items: flex-start;
+    //border: $border-test;
 
     .card{      
 

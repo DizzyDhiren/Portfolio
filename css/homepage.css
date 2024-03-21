@@ -32,7 +32,6 @@ body {
   width: 40%;
   height: fit-content;
   gap: 100px;
-  border: 2px solid red;
 }
 
 body {
@@ -133,7 +132,6 @@ header nav ul li a {
   position: fixed;
   margin-left: 50px;
   top: 20%;
-  border: 2px solid red;
 }
 @media (max-width: 2286px) {
   .tagline-container {
@@ -154,6 +152,8 @@ header nav ul li a {
   flex-wrap: wrap;
   width: 100%;
   height: fit-content;
+  border-radius: 20px;
+  padding: 15px;
   border: 2px solid red;
 }
 .card:hover {
@@ -166,7 +166,6 @@ header nav ul li a {
   align-items: center;
   flex-direction: column;
   gap: 45px;
-  border: 2px solid red;
   align-items: flex-start;
 }
 .experience .card .date {
