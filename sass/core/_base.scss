@@ -26,9 +26,13 @@ body{
 
 .info-container{
     position: relative;
+    @include flex(column,center);
     left: 52%;
     top: 5%;
     width: 40%  ;
     height: fit-content;
+    gap: 100px;
     border: $border-test;
+
+    
 }

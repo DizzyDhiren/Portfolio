@@ -4,8 +4,11 @@
 @use "../helpers/index" as *;
 
 .experience{
-    gap: 50px;
+    @include flex(column, center);
+    gap: 45px;
     border: $border-test;
+    align-items: flex-start;
+
     .card{      
 
         .date{
