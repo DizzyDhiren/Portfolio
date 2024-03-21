@@ -64,6 +64,15 @@ h3{
         font-family: $ff-body;
     }
 
+    #card-heading{
+        font-size: font-size(experience);
+        font-weight: weight(regular);
+        color: #ffffff;
+        font-family: $ff-body;
+        @include no-pad-marg;
+        margin-bottom: 10px;
+    }
+
     p{
         font-size: font-size(experience);
         font-weight: weight(regular);
