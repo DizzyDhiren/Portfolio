@@ -157,7 +157,8 @@ header nav ul li a {
   border: 2px solid red;
 }
 .card:hover {
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 0px 8px 2px #3BA99C;
 }
 
 .experience {

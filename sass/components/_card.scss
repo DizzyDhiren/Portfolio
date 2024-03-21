@@ -11,7 +11,8 @@
     border: $border-test;
 
     &:hover{
-     background-color: green;
+     background-color: rgba(255, 255, 255, 0.03);
+     @include card-box-shadow;
         
     }
 }
