@@ -80,4 +80,13 @@ h3{
         font-family: $ff-body;
         @include no-pad-marg;
     }
+
+    .card{
+        li{
+            font-size: font-size(skills);
+            font-weight: weight(bold);
+            color: whitesmoke;
+            font-family: $ff-body;
+        }
+    }
 }

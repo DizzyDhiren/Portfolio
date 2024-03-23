@@ -103,6 +103,12 @@ h3 {
   margin: 0px;
   padding: 0px;
 }
+.experience .card li {
+  font-size: 17.5px;
+  font-weight: 700;
+  color: whitesmoke;
+  font-family: Roboto;
+}
 
 .logo-container {
   width: fit-content;
@@ -191,5 +197,21 @@ header nav ul li a {
   align-self: flex-start;
   width: 65%;
   gap: 10px;
+  border: 2px solid red;
+}
+.experience .card .description .skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.experience .card .description .skills ul li {
+  background-color: rgba(0, 255, 179, 0.25);
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px 20px 20px 20px;
   border: 2px solid red;
 }/*# sourceMappingURL=homepage.css.map */
