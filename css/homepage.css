@@ -130,15 +130,26 @@ header {
   box-shadow: 0px 10px 14px #304D6D;
   width: 100%;
 }
+header nav {
+  margin-right: 50px;
+}
 header nav ul {
   list-style: none;
   display: flex;
   padding: 15px;
-  gap: 25px;
+  gap: 35px;
 }
 header nav ul li a {
   text-decoration: none;
   color: #FFFCE8;
+}
+header nav ul li a .icons {
+  color: white;
+  font-size: 50px;
+}
+header nav ul li a .icons:hover {
+  translate: 0px -10px;
+  color: #3BA99C;
 }
 
 .tagline-container {
@@ -171,7 +182,6 @@ header nav ul li a {
   height: fit-content;
   border-radius: 20px;
   padding: 15px;
-  border: 2px solid red;
 }
 .card:hover {
   background-color: rgba(255, 255, 255, 0.03);
@@ -193,13 +203,11 @@ header nav ul li a {
 .experience .card .date {
   align-self: flex-start;
   width: 20%;
-  border: 2px solid red;
 }
 .experience .card .description {
   align-self: flex-start;
   width: 65%;
   gap: 10px;
-  border: 2px solid red;
 }
 .experience .card .description .skills ul {
   list-style: none;
@@ -215,5 +223,4 @@ header nav ul li a {
   width: fit-content;
   padding: 5px 10px 5px 10px;
   border-radius: 20px 20px 20px 20px;
-  border: 2px solid red;
 }/*# sourceMappingURL=homepage.css.map */
