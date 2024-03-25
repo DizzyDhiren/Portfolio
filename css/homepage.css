@@ -11,13 +11,15 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #132553;
-  height: 2000px;
+  height: fit-content;
 }
 
 .main-container {
   width: 1440px;
   min-width: 1024px;
   height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border: 2px solid red;
 }
 
