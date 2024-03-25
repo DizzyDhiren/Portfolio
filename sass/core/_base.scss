@@ -9,14 +9,15 @@ body{
     @include no-pad-marg;
     @include flex(column, flex-start);
     background-color: $background;
-    height: 2000px;
+    height: fit-content;
 }
 
 .main-container{
     width: 1440px;
     min-width: 1024px;
     height: 100%;
-    
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 
     border: $border-test;
@@ -26,9 +27,13 @@ body{
 
 .info-container{
     position: relative;
+    @include flex(column,center);
     left: 52%;
     top: 5%;
     width: 40%  ;
     height: fit-content;
-    border: $border-test;
+    gap: 100px;
+    //border: $border-test;
+
+    
 }

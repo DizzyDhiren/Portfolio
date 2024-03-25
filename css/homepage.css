@@ -11,23 +11,29 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #132553;
-  height: 2000px;
+  height: fit-content;
 }
 
 .main-container {
   width: 1440px;
   min-width: 1024px;
   height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border: 2px solid red;
 }
 
 .info-container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   left: 52%;
   top: 5%;
   width: 40%;
   height: fit-content;
-  border: 2px solid red;
+  gap: 100px;
 }
 
 body {
@@ -69,6 +75,43 @@ h3 {
   font-weight: 525;
 }
 
+.experience h4 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: Roboto;
+}
+.experience .date {
+  font-size: 19px;
+  font-weight: 500;
+  color: #a4a4ab;
+  opacity: 50%;
+  font-family: Roboto;
+}
+.experience #card-heading {
+  font-size: 19px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+.experience p {
+  font-size: 19px;
+  font-weight: 500;
+  color: #909096;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
+.experience .card li {
+  font-size: 17.5px;
+  font-weight: 700;
+  color: whitesmoke;
+  font-family: Roboto;
+}
+
 .logo-container {
   width: fit-content;
   justify-content: center;
@@ -106,7 +149,6 @@ header nav ul li a {
   position: fixed;
   margin-left: 50px;
   top: 20%;
-  border: 2px solid red;
 }
 @media (max-width: 2286px) {
   .tagline-container {
@@ -117,4 +159,61 @@ header nav ul li a {
   .tagline-container {
     width: 35%;
   }
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 15px;
+  border: 2px solid red;
+}
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 0px 8px 2px #3BA99C;
+}
+.card:hover #card-heading {
+  color: #45B0AE;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 45px;
+  align-items: flex-start;
+}
+.experience .card .date {
+  align-self: flex-start;
+  width: 20%;
+  border: 2px solid red;
+}
+.experience .card .description {
+  align-self: flex-start;
+  width: 65%;
+  gap: 10px;
+  border: 2px solid red;
+}
+.experience .card .description .skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.experience .card .description .skills ul li {
+  background-color: rgba(0, 255, 179, 0.25);
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px 20px 20px 20px;
+  border: 2px solid red;
 }/*# sourceMappingURL=homepage.css.map */
