@@ -15,12 +15,18 @@ body {
 }
 
 .main-container {
-  width: 1440px;
-  min-width: 1024px;
+  max-width: 1440px;
   height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  border: 2px solid red;
+}
+@media (max-width: 1024px) {
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .info-container {
@@ -34,6 +40,20 @@ body {
   width: 40%;
   height: fit-content;
   gap: 100px;
+}
+@media (max-width: 1024px) {
+  .info-container {
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 1024px) {
+  .info-container .aboutme {
+    padding: 50px;
+  }
 }
 
 body {
@@ -170,18 +190,23 @@ header nav ul li a .icons:hover {
   margin-left: 50px;
   top: 20%;
 }
-@media (max-width: 2286px) {
+@media (max-width: 1024px) {
   .tagline-container {
-    width: 45%;
-  }
-}
-@media (max-width: 1440px) {
-  .tagline-container {
-    width: 35%;
+    position: relative;
+    width: 80%;
+    align-items: center;
   }
 }
 .tagline-container .contact-info {
   margin-top: 50px;
+}
+@media (max-width: 1024px) {
+  .tagline-container .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .card {
@@ -194,6 +219,16 @@ header nav ul li a .icons:hover {
   height: fit-content;
   border-radius: 20px;
   padding: 15px;
+}
+@media (max-width: 1024px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+  }
 }
 .card:hover {
   background-color: rgba(255, 255, 255, 0.03);
@@ -211,6 +246,11 @@ header nav ul li a .icons:hover {
   width: 100%;
   gap: 45px;
   align-items: flex-start;
+}
+@media (max-width: 1024px) {
+  .experience {
+    align-items: center;
+  }
 }
 .experience .card .date {
   align-self: flex-start;
