@@ -9,6 +9,11 @@
     border-radius: 20px;
     padding: 15px;
     
+    @include laptop{
+        @include flex(column, center);
+        align-content: center;
+        width: 80%;
+    }
 
     &:hover{
      background-color: rgba(255, 255, 255, 0.03);

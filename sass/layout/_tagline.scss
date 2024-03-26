@@ -12,18 +12,23 @@
     top: 20%;
     
     //border: $border-test;
-
-    @include l-desktop{
-        width: 45%;
+    @include laptop{
+    position: relative;    
+    width: 80%;
+    align-items: center;
     }
 
-    @include desktop{
-        width: 35%;
-        
-    }
+    
+    
+
+    
 
     .contact-info{
         margin-top: 50px;
+
+        @include laptop{
+            @include flex(column, center);
+        }
     }
 
 }

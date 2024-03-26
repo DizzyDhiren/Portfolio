@@ -13,14 +13,16 @@ body{
 }
 
 .main-container{
-    width: 1440px;
-    min-width: 1024px;
+    max-width: 1440px;
     height: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     
+    @include laptop{
+        @include flex(column, center);
+    }
 
-    border: $border-test;
+    
     
 }
 
@@ -35,5 +37,18 @@ body{
     gap: 100px;
     //border: $border-test;
 
+    @include laptop{
+        width: 100%;
+        left: 0%;
+        top: 0%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .aboutme{
+        @include laptop{
+            padding: 50px;
+        }
+    }
     
 }
