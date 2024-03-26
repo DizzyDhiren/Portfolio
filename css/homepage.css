@@ -62,6 +62,15 @@ h3 {
   color: #63ADF2;
 }
 
+.tagline-container p {
+  font-size: 28px;
+  font-weight: 300;
+  color: #3BA99C;
+  font-family: Outfit;
+  margin: 0px;
+  padding: 0px;
+}
+
 .info-container p {
   font-size: 22px;
   font-weight: 500;
@@ -170,6 +179,9 @@ header nav ul li a .icons:hover {
   .tagline-container {
     width: 35%;
   }
+}
+.tagline-container .contact-info {
+  margin-top: 50px;
 }
 
 .card {

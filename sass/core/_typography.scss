@@ -29,6 +29,16 @@ h3{
     color: $tertiary;
 }
 
+.tagline-container{
+    p{
+        font-size: font-size(title);
+        font-weight: weight(thin);
+        color: $secondary;
+        font-family: $ff-title;
+        @include no-pad-marg;
+    }
+}
+
 .info-container{
     p{
         font-size: font-size(normal);
